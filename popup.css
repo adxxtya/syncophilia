@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+#popup-container {
+  width: 350px;
+  height: 500px;
+background: #B7D2FF;
+background: linear-gradient(225deg, #B7D2FF, #E9C1FF);
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* image 1 */
+#image {
+  width: 300px;
+  border-radius: 8px;
+}
+
+/* Netflix was detected! ✅ */
+.workings {
+  font-family: "Inter";
+  margin-top: 20px;
+  margin: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+.workings span {
+  width: 100%;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.numbered-list {
+  font-size: 16px;
+  font-weight: 600;
+  list-style-type: none; /* Remove default numbering */
+  counter-reset: item; /* Reset the counter */
+  padding-left: 20px; /* Adjust as needed */
+}
+
+.list-item {
+  font-size: inherit; /* You can adjust the font size here if needed */
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px; /* Adjust as needed */
+  padding-bottom: 5px;
+}
+
+.list-item::before {
+  content: counter(item) ".";
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+}
+
+
+
+
+#title {
+  width: 100%;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px;
+}
+
+
+#button-logo {
+  margin-right: 8px;
+}
+
+
+.button-1 {
+  align-items: center;
+  width: 250px;
+  background-color: #9EFF00;
+  border: 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #84d600;
+  color: #eeeeee;
+}
+
+.button-1:active {
+  background: #77c100;
+  color: rgba(230, 230, 230, 0.7);
+}
+
+.button-1:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* 
+.button-2 {
+  align-items: center;
+  width: 200px;
+  background-color: #40BCF4;
+  border: 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #39a8db;
+  color: #ffffff;
+}
+
+.button-2:active {
+  background: #2d84ac;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-2:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+} */

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "A Syncophilia",
+  "version": "0.1.0",
+  "description": "Description of your extension",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/sync.png",
+      "48": "icons/sync.png",
+      "128": "icons/sync.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/sync.png",
+    "48": "icons/syncophilic.png",
+    "128": "icons/sync.png"
+  }
+}
